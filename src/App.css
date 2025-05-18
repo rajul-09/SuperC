@@ -1,0 +1,45 @@
+.hero {
+  text-align: center;
+  background: #f0f8ff;
+  padding: 20px;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.big-ben {
+  width: 20%;
+}
+
+.trophy-girl img {
+  width: 200px;
+}
+
+.enroll-btn, .download-btn {
+  background-color: #00274d;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.countdown {
+  background-color: orange;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+footer {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.highlight {
+  color: orange;
+  font-weight: bold;
+}

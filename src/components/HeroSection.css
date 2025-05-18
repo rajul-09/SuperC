@@ -1,0 +1,294 @@
+.top-bar{
+  padding:10px 20px;
+  text-align: right;
+  font-size: 14px;
+  
+}
+.girlBook.png{
+}
+.top-bar-btn{
+  background-color: #00274d;
+  color: white;
+  margin-left: 10px;
+  padding: 6px 12px;
+  border: none;
+  cursor: pointer;
+}
+.top-bar-2btn{
+  background-color: white;
+  color:#00274d;
+  margin-left: 10px;
+  padding: 6px 12px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.logo{
+  background-image: url("logo 1.png");
+  background-position: left;
+}
+.full-pg-bg {
+  background-image: url("big-ben.jpg");  
+  background-size: cover;
+  background-position: middle;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+.text-section{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+   font-size: 28px;
+   color:white;
+}
+.enroll-btn, .download-btn {
+  background-color: #00274d;
+  color: white;
+  justify-content: left;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+}
+.container{
+    display: inline-block;
+    justify-content: right;
+    align-items: bottom right;
+    border: #ccc;
+    width: 33.3%;
+}
+
+.countdownTimer {
+  background-image: url('Vector-5.svg');
+  color: white;
+  display: contents;
+  text-align: right;
+  padding: 10px;
+  border-radius: 5px;
+  
+}
+.info-boxx{
+    display: flex;
+  background-color: #e4f4fc;
+  background-size: 100%;
+  padding: 40px;
+  text-align: center;
+  gap: 33.3%;
+  margin-top: 20px;
+  font-size: 22px;
+}
+.highlight-orange {
+  color: orange;
+  font-weight: bold;
+  align-items: right;
+}
+.information-section{
+  padding: 40px;
+  font-size: 26px;
+  text-align: center;
+}
+.participate-section{
+  display: flex;
+  text-align: center;
+  gap: 50%x;
+  padding: 50px;
+  background-color: #e4f4fc;
+  background-size: 100%;
+  margin-top: 20px;
+  font-size: 22px;
+  justify-content: center;
+}
+.challenge-btn{
+  background-color: #00274d;
+  color: white;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 4px;
+}
+.info-boxes{
+  display: flex;
+  text-align: right;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.info-box{
+  flex: 1;
+  min-width: 120px;
+  color: #14516e;
+  font-size: large;
+  background-color: white;
+  background-size: 100%;
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: center;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.girlBook{
+  background-image: url("girlBook.png");
+  background-color: #e4f4fc;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 30px 30px;
+  height: 40%;
+  width: 30%;
+}
+.highlight-blue{
+  color: #14516e;
+}
+.about-sections{
+  font-size: 30px;
+  justify-content: center;
+  margin-left: 10%;
+  padding: 10px 10%;
+}
+
+.form.jpg{
+  width: 10px;
+  height: 10px;
+}
+.syllabus-section{
+  padding: 40px 20 px;
+  background-color: white;
+  text-align: center;
+}
+.syllabus-section h2{
+  font-size: 50px;
+  margin-bottom: 5px;
+}
+.syllabus-tags{
+  font-size: 40px;
+  margin-bottom: 40px;
+  color:black;
+}
+.syllabus-table{
+  font-size: 34px;
+  color:black;
+  width: 100%;
+  height: 50%;
+  margin: 10px;
+  padding: 10px 10%;
+  justify-content: center;
+}
+ .syllabus-table td{
+  background-color: #e4f4fc;
+  padding: 40px;
+}
+.syllabus-table th{
+  background-color: orangered;
+  color:white;
+}
+.highlight-orangered{
+  color: orangered ;
+  font-weight: bold ;
+}
+.appAndWeb-section{
+  font-size: 34px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: center;
+  background-size: cover;
+  padding: 10px 10%;
+}
+.app-img{
+  width: 40%;
+}
+.incentive-section{
+  gap: 10px;
+  background-color: #e4f4fc;
+  text-align: center;
+  margin: 40px 0px;
+  justify-items: center;
+}
+.winners{
+  padding: 40px 20px;
+  background-color: white;
+  text-align: left;
+  width: 33.3%;
+   height: 200px;
+   width: 200px;
+   justify-content: center;
+}
+.Previous-Winners{
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.winners{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.stats-section{
+  text-align: center;
+    background-color: #e4f4fc;
+  padding: 30px 20px;
+  margin-top: 40px;
+  font-size: 26px;
+}
+.stats{
+  display: flex;
+font-size: 24px;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.testimonials-section{
+  font-size: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 40px;
+  justify-content: centers;
+  text-align: center;
+}
+.testimonials-img{
+  max-width: 600px;
+  font-size: 18px ;
+  
+  justify-content: left;
+  display: inline-flex;
+  margin: 10px;
+  padding: 10px 20%;
+}
+.faq-section{
+  background-color: #e4f4fc;
+  padding: 40px 20px;
+  margin-top: 40px;
+  text-align: center;
+}
+.faq-items{
+  text-align: left;
+  max-width: 700px;
+  margin: 0 auto 20px auto;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+.highlight-light-blue{
+   color: #e4f4fc;
+  font-weight: bold;
+  align-items: right;
+}
+.cta-section{
+  background-color: #14516e;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:#e4f4fc;
+  padding: 40px 20px;
+  text-align: center;
+}
+.cta-buttons{
+  
+  background-color: #e4f4fc;
+  padding: 10px;
+  text-align: center;
+  max-height: 150px;
+}
+.cta-button {
+  background-color: #14516e;
+  color: #ccc;
+  padding: auto;
+}
+.highlight-one{
+  color: #14516e;
+}
+  
+

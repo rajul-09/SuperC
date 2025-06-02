@@ -1,26 +1,29 @@
 import React, { useState, useEffect } from 'react';
 
-const CountdownTimer = ({ targetDate }) => {
-  const calculateDaysLeft = () => {
-    const difference = +new Date(targetDate) - +new Date();
-    return Math.floor(difference / (1000 * 60 * 60 * 24));
-  };
-
-  const [daysLeft, setDaysLeft] = useState(calculateDaysLeft());
+const Countdown = ({ targetDate }) => {
+  const [daysRemaining, setDaysRemaining] = useState(0);
 
   useEffect(() => {
-    const timer = setInterval(() => {
-      setDaysLeft(calculateDaysLeft());
-    }, 86400000); // 1 day
+    const updateCountdown = () => {
+      const now = new Date();
+      const target = new Date(targetDate);
+      const difference = target - now;
 
-    return () => clearInterval(timer);
+      const days = Math.max(0, Math.floor(difference / (1000 * 60 * 60 * 24)));
+      setDaysRemaining(days);
+    };
+
+    updateCountdown(); // Run initially
+    const interval = setInterval(updateCountdown, 1000 * 60 * 60); // Update every hour
+
+    return () => clearInterval(interval); // Cleanup
   }, [targetDate]);
 
   return (
-    <div className="countdown">
-      <span>⏳ {daysLeft} Days Left!</span>
-    </div>
-  );
+   
+      
+     <span>{daysRemaining} </span>
+  ); 
 };
 
-export default CountdownTimer;
+export default Countdown;
